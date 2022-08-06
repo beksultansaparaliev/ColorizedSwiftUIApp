@@ -8,10 +8,10 @@
 import SwiftUI
 
 @main
-struct ColorizedSwiftUIAppApp: App {
+struct SwiftUIColorizedAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StarterView()
         }
     }
 }

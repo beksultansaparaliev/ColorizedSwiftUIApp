@@ -7,7 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5DC378522833E20500F3FDA3 /* ColorizedSwiftUIAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC378512833E20500F3FDA3 /* ColorizedSwiftUIAppApp.swift */; };
+		5DBC80CD289CF85000E0E467 /* StarterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC80CC289CF85000E0E467 /* StarterView.swift */; };
+		5DBC80CF289CF87E00E0E467 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC80CE289CF87E00E0E467 /* ColorViewController.swift */; };
+		5DBC80D1289CF89700E0E467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DBC80D0289CF89700E0E467 /* Main.storyboard */; };
+		5DBC80D3289CF90B00E0E467 /* DecimalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DBC80D2289CF90B00E0E467 /* DecimalTextField.swift */; };
+		5DC378522833E20500F3FDA3 /* ColorizedSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC378512833E20500F3FDA3 /* ColorizedSwiftUIApp.swift */; };
 		5DC378542833E20500F3FDA3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DC378532833E20500F3FDA3 /* ContentView.swift */; };
 		5DC378562833E20700F3FDA3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC378552833E20700F3FDA3 /* Assets.xcassets */; };
 		5DC378592833E20700F3FDA3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DC378582833E20700F3FDA3 /* Preview Assets.xcassets */; };
@@ -18,8 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5DBC80CC289CF85000E0E467 /* StarterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterView.swift; sourceTree = "<group>"; };
+		5DBC80CE289CF87E00E0E467 /* ColorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		5DBC80D0289CF89700E0E467 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5DBC80D2289CF90B00E0E467 /* DecimalTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecimalTextField.swift; sourceTree = "<group>"; };
 		5DC3784E2833E20500F3FDA3 /* ColorizedSwiftUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorizedSwiftUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DC378512833E20500F3FDA3 /* ColorizedSwiftUIAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedSwiftUIAppApp.swift; sourceTree = "<group>"; };
+		5DC378512833E20500F3FDA3 /* ColorizedSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorizedSwiftUIApp.swift; sourceTree = "<group>"; };
 		5DC378532833E20500F3FDA3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5DC378552833E20700F3FDA3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DC378582833E20700F3FDA3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -59,10 +67,14 @@
 		5DC378502833E20500F3FDA3 /* ColorizedSwiftUIApp */ = {
 			isa = PBXGroup;
 			children = (
-				5DC378512833E20500F3FDA3 /* ColorizedSwiftUIAppApp.swift */,
+				5DC378512833E20500F3FDA3 /* ColorizedSwiftUIApp.swift */,
 				5DC378532833E20500F3FDA3 /* ContentView.swift */,
+				5DBC80CC289CF85000E0E467 /* StarterView.swift */,
+				5DBC80CE289CF87E00E0E467 /* ColorViewController.swift */,
+				5DBC80D0289CF89700E0E467 /* Main.storyboard */,
 				5DC378652836407900F3FDA3 /* ColorSliderView.swift */,
 				5DC3786328363B9C00F3FDA3 /* TextFieldView.swift */,
+				5DBC80D2289CF90B00E0E467 /* DecimalTextField.swift */,
 				5DC3786128363ACA00F3FDA3 /* TextView.swift */,
 				5DC3785F2836351F00F3FDA3 /* ColorView.swift */,
 				5DC378552833E20700F3FDA3 /* Assets.xcassets */,
@@ -137,6 +149,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBC80D1289CF89700E0E467 /* Main.storyboard in Resources */,
 				5DC378592833E20700F3FDA3 /* Preview Assets.xcassets in Resources */,
 				5DC378562833E20700F3FDA3 /* Assets.xcassets in Resources */,
 			);
@@ -149,11 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DBC80CD289CF85000E0E467 /* StarterView.swift in Sources */,
 				5DC378602836351F00F3FDA3 /* ColorView.swift in Sources */,
+				5DBC80CF289CF87E00E0E467 /* ColorViewController.swift in Sources */,
 				5DC3786428363B9C00F3FDA3 /* TextFieldView.swift in Sources */,
+				5DBC80D3289CF90B00E0E467 /* DecimalTextField.swift in Sources */,
 				5DC3786228363ACA00F3FDA3 /* TextView.swift in Sources */,
 				5DC378542833E20500F3FDA3 /* ContentView.swift in Sources */,
-				5DC378522833E20500F3FDA3 /* ColorizedSwiftUIAppApp.swift in Sources */,
+				5DC378522833E20500F3FDA3 /* ColorizedSwiftUIApp.swift in Sources */,
 				5DC378662836407900F3FDA3 /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
